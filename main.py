@@ -34,7 +34,7 @@ parser.add_argument('--dropout', type=float, default=0.,
 #                     help='tie the word embedding and softmax weights')
 parser.add_argument('--bidirect', action='store_true',
                     help='use bi-directional')
-parser.add_argument('--no_cuda', action='store_false',
+parser.add_argument('--no_cuda', action='store_true',
                     help='do not use CUDA')
 parser.add_argument('--log_interval', type=int, default=150,
                     help='report interval')
